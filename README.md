@@ -24,7 +24,7 @@ The following scripts are included:
 
 [Linear probing](scripts/linear_probing.py): This script conducts and evaluates linear probing (only single classification layer is trained).
 
-[XGBoost]: This script trains and evaluates a count-based XGBoost baseline model using varying fixed length representations.
+[XGBoost](scripts/xgboost.py): This script trains and evaluates a count-based XGBoost baseline model using varying fixed length representations.
 
 ## Evaluation
 The following notebooks are included:
