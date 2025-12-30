@@ -9,5 +9,6 @@ These models are trained on data from the Clinical Practice Research Datalink (C
 
 ## Data preparation 
 Each patient is represented by a sentence of clinical codes, as this research uses CPRD, each patient is represented by strings of BNF, SNOMED, ICD10 and OPCS codes which are ordered chronolgoically. Demographic tokens (sex, ethnicity and IMD quartile) which are not associated with a specific clinical encounter are inserted at the beginning of all patient sequences, as demostrated in the figure below. Additionally a death token is inserted at the end of the patient sequence when recorded.
+![Data input format](images/sentences.png)
 
 ## 
