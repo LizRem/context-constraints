@@ -22,9 +22,9 @@ The following scripts are included:
 
 [Finetuning](scripts/finetuning.py): This script conducts and evaluates a full fine-tuning of the pretrained model.
 
-XX: This script conducts and evaluates linear probing (only single classification layer is trained).
+[Linear probing](scripts/linear_probing.py): This script conducts and evaluates linear probing (only single classification layer is trained).
 
-XX: This script trains and evaluates a count-based XGBoost baseline model using varying fixed length representations.
+[XGBoost]: This script trains and evaluates a count-based XGBoost baseline model using varying fixed length representations.
 
 ## Evaluation
 The following notebooks are included:
