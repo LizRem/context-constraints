@@ -16,11 +16,11 @@ The following scripts are included:
 
 [Tokenizer](scripts/tokenizer.py): This script trains a domain specific tokenizer based on the data format expected. 
 
-[Optimisation](scripts/optimisation_pretraining.py): This script optimises hyperparametes (learning rate, batch size and warm-up ratio) for pretraining a model.
+[Optimisation](scripts/optimisation_pretraining.py): This script optimises hyperparametes (learning rate, batch size and warm-up ratio) for pretraining a model. This provides the script for one context length model (512 tokens) but can easily be adapted to other model lengths. 
 
 [Pretraining](scripts/pretraining.py): This script conducts a full pretraining of the clinical language model for 7 epoches using the optimised hyperparameters.
 
-XX: This script conducts and evaluates a full fine-tuning of the pretrained model.
+[Finetuning](scripts/finetuning.py): This script conducts and evaluates a full fine-tuning of the pretrained model.
 
 XX: This script conducts and evaluates linear probing (only single classification layer is trained).
 
