@@ -9,6 +9,26 @@ These models are trained on data from the Clinical Practice Research Datalink (C
 
 ## Data preparation 
 Each patient is represented by a sentence of clinical codes, as this research uses CPRD, each patient is represented by strings of BNF, SNOMED, ICD10 and OPCS codes which are ordered chronolgoically. Demographic tokens (sex, ethnicity and IMD quartile) which are not associated with a specific clinical encounter are inserted at the beginning of all patient sequences, as demostrated in the figure below. Additionally a death token is inserted at the end of the patient sequence when recorded.
-![Data input format](images/sentences.png)
+![Data input format](images/data-prep.png)
 
-## 
+## Model training
+The following scripts are included:
+XX: This script trains a domain specific tokenizer. 
+
+XX: This script optimises hyperparametes (learning rate, batch size and warm-up ratio) then conducts a full pretraining of the clinical language model for 7 epoches.
+
+XX: This script conducts and evaluates a full fine-tuning of the pretrained model
+
+XX: This script conducts and evaluates linear probing (only single classification layer is trained).
+
+XX: This script trains and evaluates a count-based XGBoost baseline model using varying fixed length representations.
+
+## Evaluation
+The following notebooks are included:
+XX: This notebook is used to analyse the SHAP values of the model to identify clinical events most strongly associated with a positive prediciton of each microvascular complication. 
+
+XX: This notebook creates Uniform Manifold Approximation and Projection (UMAP) embeddings to help visualise embeddings within a 2-dimensional space.
+
+XX: This notebook evaluates models over subgroup performance, stratifying across ethnicity, sex and IMD. 
+
+XX: This notebook analyses self attention weights from across all layers and heads to assess attention distribution at different context lengths and patient sequence lengths. 
