@@ -20,7 +20,7 @@ from datetime import datetime
 PRETRAIN_DATA_PATH = "data/pretrain_data.csv"  # Path to pretraining data
 TOKENIZER_PATH = "tokenizers/tokenizer_llama"  # Path to trained tokenizer
 OUTPUT_DIR = "outputs/hyperparameter_optimization/512"  # Output directory
-FINAL_PRETRAIN_OUTPUT = "data/pretrain.csv"  # Saved data for final training
+FINAL_PRETRAIN_OUTPUT = "data/pretrain_split.csv"  # Saved data for final training
 
 # Optimization settings
 NUM_TRIALS = 15
