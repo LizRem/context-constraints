@@ -13,7 +13,7 @@ Each patient is represented by a sentence of clinical codes, as this research us
 
 ## Model training
 The following scripts are included:
-XX: This script trains a domain specific tokenizer. 
+[Tokenizer](scripts/tokenizer.py): This script trains a domain specific tokenizer. 
 
 XX: This script optimises hyperparametes (learning rate, batch size and warm-up ratio) then conducts a full pretraining of the clinical language model for 7 epoches.
 
